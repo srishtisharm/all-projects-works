@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+}
+.header{
+    height: 30px;
+    width: 100%;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+}
+.header ul{
+    list-style-type: none;
+    padding: 5px;
+}
+.header ul li{
+    display: inline;
+}
+.header ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 16, 122);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding: 10px;
+}
+.header ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 25%;
+}
+/* navbar styling start here  */
+.nav{
+    display: flex;
+}
+.nav-left{
+    flex: 30%;
+    background-color: rgb(0, 255, 153);
+    text-align: center;
+}
+.nav-left h1{
+    font-size: 50px;
+    margin: 10px;
+}
+.nav-right{
+    flex: 70%;
+    background-color: blue;
+    text-align: right;
+    padding: 20px;
+}
+.nav-right ul{
+    list-style-type: none;
+}
+.nav-right ul li{
+    display: inline;
+}
+.nav-right ul li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+.nav-right ul li a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid greenyellow;
+    border-radius: 16%;
+    box-shadow: 5px 5px 10px greenyellow;
+}
+
+/* body styling start here  */
+.contaner{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.box{
+    height: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.box img{
+    height: 200px;
+    width: 400px;
+    margin: 10px 10px 0 10px;
+    border: 4px solid rgb(132, 0, 255);
+}
+.box h1{
+    font-size: 40px;
+    color:rgb(132, 0, 255);
+}
+.box button{
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: rgb(185, 110, 255);
+    border: 3px solid rgb(132, 0, 255);
+}
+.box button a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700px;
+}
+    </style>
+</head>
+<body>
+    <!-- nav bar codeing start here -->
+    <nav>
+        <div class="nav">
+            <div class="nav-left">
+                <h1>All Project</h1>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contect us</a></li>
+                    <li><a href="">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- body coading start here  -->
+    <div class="contaner">
+        <table class="box">
+            <tr>
+                <td>
+                    <img src="projects/images/fb login page.jpg">
+                    <h1>Facebook Login Page</h1>
+                    <button><a href=" https://srishtisharm.github.io/fb-login-page-/">Click Here   </a></button>
+                </td>
+
+                <td>
+                    <img src="projects/images/home page.png">
+                    <h1>Instagram home page</h1>
+                    <button><a href=" https://srishtisharm.github.io/insta-profile/">Click Here   </a></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="projects/images/insta logo.webp">
+                    <h1>Instagram logo</h1>
+                    <button><a href=" https://srishtisharm.github.io/insta-logo/">Click Here   </a></button>
+                </td>
+                <td>
+                    <img src="projects/images/chrome logo.jpg">
+                    <h1>Crome logo</h1>
+                    <button><a href="https://srishtisharm.github.io/chrome-logo/">Click Here   </a></button>
+                </td>
+                
+            </tr>
+            
+        </table>
+    </div>
+</body>
+</html>
